@@ -10,3 +10,8 @@ coverage/
 *.log
 .DS_Store
 .vercel/
+# Local football API cache
+.cache/
+
+# TypeScript incremental build information
+*.tsbuildinfo

@@ -1,6 +1,8 @@
+
 {
   "name": "fantasy-arena",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,6 +15,7 @@
     "db:studio": "drizzle-kit studio",
     "football:discover": "tsx scripts/discover-leagues.ts",
     "football:sync": "tsx scripts/sync-football.ts",
+    "football:players": "tsx scripts/import-players.ts",
     "worker:sync": "tsx scripts/sync-football.ts",
     "db:check": "drizzle-kit check"
   },

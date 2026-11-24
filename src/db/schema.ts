@@ -1,6 +1,6 @@
 import {
   pgTable, pgEnum, uuid, varchar, text, integer, boolean, timestamp,
-  numeric, jsonb, uniqueIndex, index, primaryKey
+  jsonb, uniqueIndex, index, primaryKey
 } from "drizzle-orm/pg-core";
 
 export const competitionCode = pgEnum("competition_code", ["EPL", "LALIGA"]);
